@@ -72,7 +72,7 @@ const handleReset = () => {
                 type='text'
                 name='search'
                 value={Search}
-                onBlur={(e) => setSearch(e.target.value)}
+                onChange={(e) => setSearch(e.target.value)}
                 placeholder='Enter Job Title'
                 aria-label='Enter Job Title'
               />
